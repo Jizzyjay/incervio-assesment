@@ -117,7 +117,7 @@ const Shop = () => {
 
   return (
     <div className="flex flex-col py-8 px-4 sm:px-8">
-      <h3 className="text-base font-bold py-4">Shop by Department</h3>
+      <h3 className="text-sm font-bold py-4">Shop by Department</h3>
       <div className="flex flex-row flex-wrap gap-8">
         {products.map((product) => (
           <ProductItem

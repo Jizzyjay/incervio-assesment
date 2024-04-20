@@ -12,7 +12,7 @@ const Vendors = () => {
   return (
     <div className="flex flex-col py-8 px-4 sm:px-8">
       <h3 className="text-[0.9rem] font-bold py-4">Weekly Top Vendors</h3>
-      <div className="flex flex-col lg:flex-row justify-between">
+      <div className="flex flex-col lg:flex-row justify-between gap-4">
         <div className=" bg-white flex flex-col gap-4 p-4 ">
           <div className="flex flex-row gap-4 items-center">
             <img src={brand1} alt="brand" className="w-14 h-14" />
@@ -38,7 +38,7 @@ const Vendors = () => {
               </div>
             </div>
           </div>
-          <img src={ven1} alt="Vendor" className="w-[200px] h-[200px]" />
+          <img src={ven1} alt="Vendor" />
         </div>
         <div className=" bg-white flex flex-col gap-4 p-4 ">
           <div className="flex flex-row gap-4 items-center">

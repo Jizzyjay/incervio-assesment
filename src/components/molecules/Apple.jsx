@@ -13,7 +13,7 @@ const Apple = () => {
       <div className="flex flex-row flex-wrap justify-between items-center">
         <div className="flex flex-row items-center mb-4 sm:mb-0">
           <img src={prod} alt="product" className="w-14 h-14" />
-          <h3 className="text-sm font-bold py-4">Apple</h3>
+          <h3 className="text-sm font-bold p-4">Apple</h3>
         </div>
         <div className="flex flex-row items-center">
           <h4 className="text-xs font-bold">See more items</h4>

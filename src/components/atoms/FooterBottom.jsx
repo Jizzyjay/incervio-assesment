@@ -5,7 +5,7 @@ import visa from "../../assets/visa.svg";
 
 const FooterBottom = () => {
   return (
-    <div className="bg-[#DDDFDF] flex flex-col py-4 px-4 sm:px-8">
+    <div className="hidden sm:flex bg-[#DDDFDF] flex-col py-4 sm:px-8">
       <div className="flex flex-row justify-between items-center">
         <p className="text-sm">
           All Rights Reserved. © 2024{" "}
@@ -13,6 +13,7 @@ const FooterBottom = () => {
             className="text-blue-500"
             href="https://new-portfolio-ochre-eight.vercel.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             johnekunola.com
           </a>

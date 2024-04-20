@@ -16,7 +16,7 @@ const Categories = () => {
           title="Clothes"
         />
         <ProductCard
-          bgColor="red"
+          bgColor="white"
           image='https://images.pexels.com/photos/1884584/pexels-photo-1884584.jpeg?auto=compress&cs=tinysrgb&w=400'
           title="Clothes"
         />
@@ -81,7 +81,6 @@ const Categories = () => {
           title="Clothes"
         />
       </div>
-
     </div>
   )
 }
