@@ -10,9 +10,7 @@ import linkdln from "../../assets/linkdln.svg";
 const Footer = () => {
   return (
     <div className="flex flex-col">
-      {/* <div className="flex flex-row justify-between items-center py-8 px-4 sm:px-8"> */}
       <div className="flex flex-col md:flex-row justify-between items-center py-8 px-4 sm:px-8">
-
         <div className="flex flex-col gap-2">
           <img src={Logo} alt="Logo" className="w-[8rem] h-[4rem]" />
           <div className="flex flex-col gap-2">
